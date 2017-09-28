@@ -3,31 +3,31 @@ Notebook of Programming
 
 Slide 2:
 Table of Contents
-3  variables
-8  operators
-12 control structures
-17 bestiaries of variables
-20 vectors
-23 matrices
-25 chains
-28 functions and types
+3  Variables
+8  Operators
+12 Control structures
+17 Bestiaries of variables
+20 Vectors
+23 Matrices
+25 Chains
+28 Functions and types
 
 Slide 3:
 Variable
 a variable is an empty container similar to a glass, which has a capacity
 
 Slide 4:
-and before its use in programming, it is neccessary to perform two operations:
+and before the variable's use in programming, it is neccessary to perform two operations:
 - declare the variable (make the glass) - reserve the space where the data is to be stored.
 - initialize the variable (put content in the glass) - in order to use the value.
 
 Slide 5:
 to create a variable you must use a type.
 the type determines how much space is required to represent the data.
-for example we are talking about numbers the data types are like matryoshka dolls. a larger container can hold a smaller one.
+for example, we are talking about numbers--the data types are like matryoshka dolls. a larger container can hold a smaller one.
 
 Slide 6:
-very important
+very important:
 if the content to be saved in the variable exceeds its capacity, there is an overflow.
 if we want to save the contents of a larger container in a smaller container, it will not be possible because there will be an overflow or loss of data.
 
