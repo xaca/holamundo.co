@@ -38,17 +38,222 @@ using a variable without initializing it is a serious error.
 
 cartoon:
 que sed - I'm thirsty!
-quede con la misma sed - I was thirsty
+quede con la misma sed - I'm still thirsty
 
 Slide 8:
 Operators
 Arithmetic - add, subtract, multiply, divide
-uselos son... - use them, they're free to save it
+uselos son... - use them, they're free. They will save you
 parantesis - paranthesis (hero)
-se evalian... - are evaluated from left to right
+se evalúan... - are evaluated from left to right
 order of evaluation
 1 () paranthesis
 2 * and /
 3 + and -
 
 Slide 9:
+relation: mua!
+greater than, equal to, less than, greater than or equal to, not equal to, less than or equal to
+evaluate a relation between two numbers, and tells us if it's true or false
+yeah, 5 is bigger than 2
+
+### Slide 10: ###
+
+watch out!
+for life's love, don't confuse
+assignment operator equality comparison operator
+b = 5 assigns to b, the value 5
+You == You, Are you equal to yourself?, yeah (true)
+
+### Slide 11: ###
+
+Logical
+behind one of these doors, is the woman of your life
+and or not
+and: returns true if both values are true. Otherwise, false
+or: returns false if both values are false. Otherwise, true
+not: returns the opposite. true if the value is false. false if the value is true.
+
+### Slide 12: ###
+
+Control structures
+if:
+(Start)
+    |
+Condition - No - - -
+    | Yes           |
+[Do something]      |
+    |  -  -  -  -  -|   
+   End
+
+(Dialogue): If I have the key, I get in
+
+if (condition)
+{
+    // Cool code here!
+}
+
+
+### Slide 13: ###
+
+if - else:
+If I have money, I eat pizza
+Else, i drink water
+
+(Start)
+    |
+Condition - no  -  -  - |
+    | Yes           run code 2
+run code 1              |
+    |  - - - - - - - - -|
+   end
+
+if (condition)
+{
+    //Cool code 1
+}
+else
+{
+    //Cool code 2
+}
+
+
+### Slide 14: ###
+
+Cycles
+while: 
+if I'm not tired, I'll walk
+
+(start)
+    |
+[condition] - no -> end
+    | Yes
+  execute
+
+while (condition)
+{
+    // cool code here!
+}
+
+### Slide 15: ###
+
+until:
+Until I have money, I'll bet
+inicio: start
+ejecutar: execute
+condición: condition
+fin: end
+
+do
+{
+    //cool code here!
+}while (condition);
+
+### Slide 16: ###
+
+for:
+One shot for every target
+
+inicialización: initialization
+incremento o decremento: increase or decrease
+Código cool: Cool code
+
+### Slide 17: ###
+Variables bestiary
+
+flag: is a control key for the program flow
+
+bandera: flag
+
+//salga de acá
+//get outta here!
+
+
+### Slide 18: ###
+guard: guards and wait to have a certain value
+
+centinela: guard
+
+// get some value into "in_value"
+guard = in_value;
+
+checks if input value equals -1. If it does, the cycle ends
+
+### Slide 19: ###
+
+contador: counter
+counter: counts a value. Generally one by one.
+
+acumulador: accumulator
+accumulator: is similar to a counter, but accumulates adding, dividing, multiplying, etc.
+
+suma: sum
+
+### Slide 20: ###
+
+Vectors
+
+is a programming structure that groups a fixed number of variables of the same type
+                components
+data ----- 35 ................
+indexes    1   ...............
+                length 4
+
+### Slide 21: ###
+
+datos: data
+(dialogues): The train is created, 
+             The train without wagons is useless
+             It saves space for 4 wagons
+
+### Slide 22: ###
+
+(dialogues):    The content is being added
+                Careful! If you put content in a position that doesn't exist, you lose the content
+
+error: error
+
+### Slide 23: ###
+
+Matrices
+is a structure that allows us to store data of the same type like a table with N rows and M columns
+            8 columns
+6 rows                  cell
+
+### Slide 24: ###
+
+datos: data
+is possible to declare and initialize a vector or matrix like this: 
+(dialogue): Assigns a value to the cell
+
+### Slide 25: ###
+
+Strings
+a string is an alphanumeric value, or a set of characters. It works like a vector.
+hola mundo: hello world
+índices: indexes
+10 total characters
+
+### Slide 26: ###
+
+s[0] returns a char. Is how we represent a character at a certain index. In this case, 0
+s[0] -> h
+
+strings are immutable. But they still have some powers that we'll call commands
+hola: hello
+
+Fabulous, Ohhh, Impressing, Wow
+
+### Slide 27: ###
+
+some commands:
+hola: hello
+mundo: world
+adiós: goodbye
+
+to see all commands, consult in the language API (?) on the Internet
+
+(box):  Watch out! 
+        == mustn't be used to compare
+        if two strings are equal. You 
+        should use Equals
