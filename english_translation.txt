@@ -1,12 +1,12 @@
 Slide 1:
-Notebook of Programming
+Programming Notebook
 
 Slide 2:
 Table of Contents
 3  Variables
 8  Operators
 12 Control structures
-17 Bestiaries of variables
+17 Types [bestiary?] of variables
 20 Vectors
 23 Matrices
 25 Chains
@@ -14,48 +14,48 @@ Table of Contents
 
 Slide 3:
 Variable
-a variable is an empty container similar to a glass, which has a capacity
+A variable is an empty container, like a glass.
 
 Slide 4:
-and before the variable's use in programming, it is neccessary to perform two operations:
-- declare the variable (make the glass) - reserve the space where the data is to be stored.
-- initialize the variable (put content in the glass) - in order to use the value.
+In programming, before you can use a variable, it is necessary to perform two operations:
+- declare the variable (create the glass) to reserve the space where the data is to be stored.
+- initialize the variable (put the contents into the glass) in order to use the value.
 
 Slide 5:
-to create a variable you must use a type.
-the type determines how much space is required to represent the data.
-for example, we are talking about numbers--the data types are like matryoshka dolls. a larger container can hold a smaller one.
+To create a variable you must use a type.
+The type determines how much space is required to represent the data.
+For example, we are talking about numbers - the data types are like matryoshka dolls. A larger container can hold a smaller one.
 
 Slide 6:
-very important:
-if the content to be saved in the variable exceeds its capacity, there is an overflow.
-if we want to save the contents of a larger container in a smaller container, it will not be possible because there will be an overflow or loss of data.
+Very important:
+If the content to be saved in the variable exceeds its capacity, there is an overflow.
+If we want to save the contents of a larger container in a smaller container, it will not be possible because there will be an overflow or loss of data.
 
 Slide 7:
-it is common sense to avoid eating toast with an empty glass when we are thirsty, because ... 
-it does not quench the thirst.
-using a variable without initializing it is a serious error.
+It is common sense not to eat toast, with an empty glass, when we are thirsty because ... 
+it does not quench thirst.
+Using a variable without initializing it is a serious error.
 
 cartoon:
-que sed - I'm thirsty!
-quede con la misma sed - I'm still thirsty
+I'm thirsty!
+I'm still thirsty
 
 Slide 8:
 Operators
 Arithmetic - add, subtract, multiply, divide
-uselos son... - use them, they're free. They will save you
-parantesis - paranthesis (hero)
-se evalúan... - are evaluated from left to right
+Use them, they're free. They will save you.
+Parentheses (hero)
+They are evaluated from left to right.
 order of evaluation
-1 () paranthesis
+1 () parentheses
 2 * and /
 3 + and -
 
 Slide 9:
-relation: mua!
-greater than, equal to, less than, greater than or equal to, not equal to, less than or equal to
-evaluate a relation between two numbers, and tells us if it's true or false
-yeah, 5 is bigger than 2
+Relationship: mua!
+Greater than, equal to, less than, greater than or equal to, not equal to, less than or equal to
+Compares the relationship between two numbers and tells us if it's true or false
+Yeah, 5 is bigger than 2
 
 ### Slide 10: ###
 
