@@ -9,8 +9,8 @@ Table of Contents
 17 Bestiary of Variables
 20 Vectors
 23 Matrices
-25 Chains
-28 Functions and types
+25 Strings
+28 Types of Functions
 
 Slide 3:
 Variable
@@ -52,7 +52,7 @@ order of evaluation
 3 + and -
 
 Slide 9:
-Relationship: mua!
+Relationship: mwa!
 Greater than, equal to, less than, greater than or equal to, not equal to, less than or equal to
 Compares the relationship between two numbers and tells us if it's true or false
 Yeah, 5 is bigger than 2
@@ -69,6 +69,7 @@ Are you equal to yourself? Yes (true).
 
 Logic
 Behind one of these doors is the woman of your life
+
 and or not
 
 and: returns true if both values are true. Otherwise, false.
@@ -128,7 +129,7 @@ Loops
 
 while: 
 
-If I am not tired, I walk
+If I am not tired, I go
 
 (start)
     |
@@ -238,14 +239,14 @@ cell
 ### Slide 24: ###
 
 dato = Data
-It is possible to declare and initialize an array or matrix like this: 
+It is possible to declare and initialize an vector or matrix like this: 
 (dialogue): Assigns a value to the cell
 
 ### Slide 25: ###
 
 Strings
 
-A string is an alphanumeric value, or a set of characters. It works like an array.
+A string is an alphanumeric value, or a set of characters. It works like a vector.
 "Hello world"
 Indexes
 10 total characters
@@ -278,4 +279,53 @@ to see all commands, consult the language API on the Internet
 
 Functions
 
-SOn modulos de codigo 
+These are reusable modules of code. When you have code that is used several times in the program, you can create a function to reuse the behaviour.
+
+Sum
+sin / sin x / Sine
+
+#Slide 29#
+
+Types of Function
+
+Does not recieve input and does not output data.
+
+0 - greet - 0    greet();
+
+Recieves input data without returning data.
+
+325 - save - 0   save();
+
+Has input data and returns output data
+
+3, 5 - sum - 8   total = sum(3, 5);
+
+#Slide 30#
+
+Appendix
+
+Programming Structures
+
+Switch - a way to have a variety of nested 'if' statements.
+
+switch(option) {
+case 1: //code 1
+
+default: Incorrect option.
+
+Ternary Operator - it's an abbreviated if statement.
+
+variable = (condition)? value 1 : value 2;
+
+break - a reserved word for exiting a loop or other structure.
+
+foreach - variation for looping over the vector
+
+Exit the loop.
+
+##Slide 31##
+
+The best way to learn and teach.
+
+
+
