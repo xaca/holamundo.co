@@ -1,37 +1,47 @@
-Slide 1:
+# Slide 1:
+
 Programming Notebook
 
-Slide 2:
-Table of Contents
-3  Variables
-8  Operators
-12 Control structures
-17 Bestiary of Variables
-20 Vectors
-23 Matrices
-25 Strings
-28 Types of Functions
+# Slide 2:
 
-Slide 3:
-Variable
+## Table of Contents
+
++ 03  Variables
++ 08  Operators
++ 12 Control structures
++ 17 Bestiary of Variables
++ 20 Vectors
++ 23 Matrices
++ 25 Strings
++ 28 Types of Functions
+
+# Slide 3:
+
+## Variable
+
 A variable is an empty container, like a glass.
 
-Slide 4:
+# Slide 4:
+
 In programming, before you can use a variable, it is necessary to perform two operations:
 - declare the variable (create the glass) to reserve the space where the data is to be stored.
 - initialize the variable (put the contents into the glass) in order to use the value.
 
-Slide 5:
+# Slide 5:
+
 To create a variable you must use a type.
 The type determines how much space is required to represent the data.
 For example, we are talking about numbers - the data types are like matryoshka dolls. A larger container can hold a smaller one.
 
-Slide 6:
-Very important:
+# Slide 6:
+
+## Very important:
+
 If the content to be saved in the variable exceeds its capacity, there is an overflow.
 If we want to save the contents of a larger container in a smaller container, it will not be possible because there will be an overflow or loss of data.
 
-Slide 7:
+## Slide 7:
+
 It is common sense not to eat toast, with an empty glass, when we are thirsty because ... 
 it does not quench thirst.
 Using a variable without initializing it is a serious error.
@@ -40,32 +50,38 @@ cartoon:
 I'm thirsty!
 I'm still thirsty
 
-Slide 8:
-Operators
+# Slide 8:
+
+## Operators
+
 Arithmetic - add, subtract, multiply, divide
 Use them, they're free. They will save you.
 Parentheses (hero)
 They are evaluated from left to right.
-order of evaluation
+
+### Order of evaluation
 1 () parentheses
 2 * and /
 3 + and -
 
-Slide 9:
-Relationship: mwa!
+# Slide 9:
+
+Relationship: kiss!
+
 Greater than, equal to, less than, greater than or equal to, not equal to, less than or equal to
 Compares the relationship between two numbers and tells us if it's true or false
 Yeah, 5 is bigger than 2
 
-Slide 10:
+# Slide 10:
 
 Watch out!
 Don't confuse the assignment operator with the equality comparison operator.
+
 b = 5 assigns to b the value 5.
 You == You
 Are you equal to yourself? Yes (true).
 
-### Slide 11: ###
+# Slide 11:
 
 Logic
 Behind one of these doors is the woman of your life
@@ -76,7 +92,7 @@ and: returns true if both values are true. Otherwise, false.
 or: returns false if both values are false. Otherwise, true.
 not: returns the opposite. true if the value is false. false if the value is true.
 
-### Slide 12: ###
+# Slide 12:
 
 Control structures
 
