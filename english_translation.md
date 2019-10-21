@@ -98,21 +98,25 @@ Control structures
 
 if:
 
-Start
+` Start
     |
-Condition - No - - -
+Condition? - No > - -
     | Yes           |
+    v               |     
 [Do something]      |
-    |  -  -  -  -  -|   
+    |  <  -  -  -  -|  
+    v
    End
+`
 
 If I have the key, I get in
 
+`
 if (condition)
 {
     // Cool code here!
 }
-
+`
 
 ### Slide 13: ###
 
@@ -121,6 +125,7 @@ if - else:
 If I have money, I eat pizza
 Else, I drink water
 
+`
 (Start)
     |
 Condition - no  -  -  - |
@@ -128,7 +133,8 @@ Condition - no  -  -  - |
 run code 1              |
     |  - - - - - - - - -|
    end
-
+`
+`
 if (condition)
 {
     //Cool code 1
@@ -136,10 +142,10 @@ if (condition)
 else
 {
     //Cool code 2
-}
+}`
 
 
-### Slide 14: ###
+# Slide 14:
 
 Loops
 
@@ -147,6 +153,7 @@ while:
 
 If I am not tired, I go
 
+`
 (start)
     |
 [condition] - no -> end
@@ -157,10 +164,11 @@ while (condition)
 {
     // cool code here!
 }
+`
 
-### Slide 15: ###
+# Slide 15:
 
-until:
+Until:
 
 Until I win money!
 
@@ -170,13 +178,15 @@ Condition?
 Yes, No
 End
 
+`
 do
 {
     //cool code here!
 
 }while (condition);
+`
 
-### Slide 16: ###
+# Slide 16:
 
 for:
 
@@ -191,7 +201,8 @@ Execute
 Increase or decrease
 Cool code.
 
-### Slide 17: ###
+# Slide 17:
+
 Bestiary of Variables
 
 Flag: a key that controls how the program flow is executed
@@ -199,7 +210,7 @@ Flag: a key that controls how the program flow is executed
 get outta here!
 
 
-### Slide 18: ###
+# Slide 18:
 
 Guard: Watches and waits to have a certain value
 
@@ -209,7 +220,7 @@ Guard = added_value;
 
 Checks if input value equals -1. If it does, the cycle ends.
 
-### Slide 19: ###
+# Slide 19:
 
 Counter
 Counts a value, usually one by one.
@@ -218,7 +229,7 @@ Accumulator
 Similar to a counter, but accumulates multiples, divisions, sums and more.
 
 
-### Slide 20: ###
+# Slide 20:
 
 Vectors
 
@@ -229,21 +240,21 @@ data ----- 35 ................
 indexes    1   ...............
                 length 4
 
-### Slide 21: ###
+# Slide 21:
 
 Data
 (dialogues): The train is created, 
              Without wagons, the train is useless.
              It saves the space for 4 wagons
 
-### Slide 22: ###
+# Slide 22:
 
 The content is being added
 Careful! If you put content in a position that doesn't exist, you lose the content.
 
 Error
 
-### Slide 23: ###
+# Slide 23:
 
 Matrices
 are structures that allow us to store data of the same type like a table, with N rows and M columns
@@ -252,13 +263,13 @@ are structures that allow us to store data of the same type like a table, with N
 6 rows
 cell
 
-### Slide 24: ###
+# Slide 24:
 
 dato = Data
 It is possible to declare and initialize an vector or matrix like this: 
 (dialogue): Assigns a value to the cell
 
-### Slide 25: ###
+# Slide 25:
 
 Strings
 
@@ -267,7 +278,7 @@ A string is an alphanumeric value, or a set of characters. It works like a vecto
 Indexes
 10 total characters
 
-### Slide 26: ###
+# Slide 26:
 
 s[0] returns a char. It is how we represent a character at a certain index. In this case, 0
 s[0] -> h
@@ -277,7 +288,7 @@ Strings are immutable, but they still have some powers that we'll call commands.
 
 Fabulous, Impressive, Wow
 
-### Slide 27: ###
+# Slide 27:
 
 Some Commands:
 hello
@@ -291,16 +302,16 @@ to see all commands, consult the language API on the Internet
         if two strings are equal. You 
         should use Equals
 
-#Slide 28#
+# Slide 28
 
-Functions
+## Functions
 
 These are reusable modules of code. When you have code that is used several times in the program, you can create a function to reuse the behaviour.
 
 Sum
 sin / sin x / Sine
 
-#Slide 29#
+# Slide 29
 
 Types of Function
 
@@ -316,7 +327,7 @@ Has input data and returns output data
 
 3, 5 - sum - 8   total = sum(3, 5);
 
-#Slide 30#
+# Slide 30
 
 Appendix
 
@@ -339,9 +350,9 @@ foreach - variation for looping over the vector
 
 Exit the loop.
 
-##Slide 31##
+# Slide 31
 
-The best way to learn and teach.
+The best way to learn is to teach.
 
 
 
