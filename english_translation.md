@@ -99,8 +99,6 @@ Control structures
 
 if:
 
-`
-
       Start  
         |  
     Condition? - No > - -  
@@ -110,16 +108,14 @@ if:
         |  <  -  -  -  -|    
         v  
        End  
-   
-`
 
 If I have the key, I get in
 
 `
-    if (condition)
-    {
-       // Cool code here!
-    }
+    if (condition)  
+    {  
+       // Cool code here!  
+    }  
 `
 
 ### Slide 13: ###
