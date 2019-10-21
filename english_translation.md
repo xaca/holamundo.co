@@ -62,8 +62,8 @@ They are evaluated from left to right.
 ### Order of evaluation
 
 1. () parentheses
-2. * and /
-3. + and -
+2. `*` and /
+3. `+` and -
 
 # Slide 9:
 
@@ -99,16 +99,16 @@ Control structures
 
 if:
 
->   ` Start
->        |
->    Condition? - No > - -
->        | Yes           |
->        v               |     
->    [Do something]      |
->        |  <  -  -  -  -|  
->        v
->       End
-> `
+>   ` Start  
+>        |  
+>    Condition? - No > - -  
+>        | Yes           |  
+>        v               |       
+>    [Do something]      |  
+>        |  <  -  -  -  -|    
+>        v  
+>       End  
+> `  
 
 If I have the key, I get in
 
