@@ -60,9 +60,10 @@ Parentheses (hero)
 They are evaluated from left to right.
 
 ### Order of evaluation
-1 () parentheses
-2 * and /
-3 + and -
+
+1. () parentheses
+2. * and /
+3. + and -
 
 # Slide 9:
 
@@ -77,9 +78,9 @@ Yeah, 5 is bigger than 2
 Watch out!
 Don't confuse the assignment operator with the equality comparison operator.
 
-b = 5 assigns to b the value 5.
-You == You
-Are you equal to yourself? Yes (true).
+- b = 5 assigns to b the value 5.
+- You == You
+- Are you equal to yourself? Yes (true).
 
 # Slide 11:
 
@@ -98,16 +99,16 @@ Control structures
 
 if:
 
-` Start
-    |
-Condition? - No > - -
-    | Yes           |
-    v               |     
-[Do something]      |
-    |  <  -  -  -  -|  
-    v
-   End
-`
+> ` Start
+>     |
+> Condition? - No > - -
+>     | Yes           |
+>     v               |     
+> [Do something]      |
+>     |  <  -  -  -  -|  
+>     v
+>    End
+> `
 
 If I have the key, I get in
 
