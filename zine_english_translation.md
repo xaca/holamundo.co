@@ -40,7 +40,7 @@ For example, we are talking about numbers - the data types are like matryoshka d
 If the content to be saved in the variable exceeds its capacity, there is an overflow.
 If we want to save the contents of a larger container in a smaller container, it will not be possible because there will be an overflow or loss of data.
 
-## Slide 7:
+# Slide 7:
 
 It is common sense not to eat toast, with an empty glass, when we are thirsty because ... 
 it does not quench thirst.
@@ -116,7 +116,7 @@ If I have the key, I get in
        // Cool code here!         
     }      
 
-### Slide 13: ###
+# Slide 13:
 
 if - else:
 
