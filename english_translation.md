@@ -100,17 +100,17 @@ Control structures
 if:
 
 `
->
->      Start  
->        |  
->    Condition? - No > - -  
->        | Yes           |  
->        v               |  
->    [Do something]      |  
->        |  <  -  -  -  -|    
->        v  
->       End  
->   
+
+      Start  
+        |  
+    Condition? - No > - -  
+        | Yes           |  
+        v               |  
+    [Do something]      |  
+        |  <  -  -  -  -|    
+        v  
+       End  
+   
 `
 
 If I have the key, I get in
