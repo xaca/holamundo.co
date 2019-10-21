@@ -100,14 +100,23 @@ Control structures
 if:
 
 >   ` Start  
+
 >        |  
+
 >    Condition? - No > - -  
+
 >        | Yes           |  
->        v               |       
+
+>        v               |  
+
 >    [Do something]      |  
+
 >        |  <  -  -  -  -|    
+
 >        v  
+
 >       End  
+
 > `  
 
 If I have the key, I get in
