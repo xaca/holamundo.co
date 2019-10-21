@@ -101,22 +101,20 @@ if:
 
       Start  
         |  
-    Condition? - No > - -  
-        | Yes           |  
-        v               |  
-    [Do something]      |  
-        |  <  -  -  -  -|    
+    Condition? - No > - - - 
+        | Yes              |  
+        v                  |  
+    [Run cool code here!]  |  
+        |  <  -  -  -  - - |    
         v  
        End  
 
 If I have the key, I get in
 
-`
-    if (condition)  
-    {  
-       // Cool code here!  
-    }  
-`
+    if (condition)     
+    {      
+       // Cool code here!         
+    }      
 
 ### Slide 13: ###
 
@@ -125,24 +123,27 @@ if - else:
 If I have money, I eat pizza
 Else, I drink water
 
-`
-(Start)
-    |
-Condition - no  -  -  - |
-    | Yes           run code 2
-run code 1              |
-    |  - - - - - - - - -|
-   end
-`
-`
-if (condition)
-{
-    //Cool code 1
-}
-else
-{
-    //Cool code 2
-}`
+       Start
+         |
+      Condition? - No  > - - -
+         | Yes                |
+         |                    v
+         v             [Run cool code 2]
+      [Run cool code 1]       |
+         |                    | 
+         |  < - - - - - - - - |
+         v
+       End
+
+
+      if (condition)
+      {
+            //Cool code 1
+      }
+      else
+      {
+             //Cool code 2
+      }
 
 
 # Slide 14:
@@ -153,18 +154,25 @@ while:
 
 If I am not tired, I go
 
-`
-(start)
-    |
-[condition] - no -> end
-    | Yes
-  execute
-
-while (condition)
-{
-    // cool code here!
-}
-`
+              Start
+                |
+                v
+            [condition?] - No > - - - - 
+                 |                     |
+         - - > - |                     |
+         |       | Yes                 |
+         |       v                     | 
+         |  [Execute cool code]        |
+         |       |                     |
+         - - < - |                     |
+                 |< - - - - - - - - - -                      
+                 v
+                End
+      
+      while (condition)
+      {
+            // cool code here!
+      }
 
 # Slide 15:
 
@@ -178,13 +186,10 @@ Condition?
 Yes, No
 End
 
-`
-do
-{
-    //cool code here!
-
-}while (condition);
-`
+      do
+      {
+        //cool code here!
+      }while (condition);
 
 # Slide 16:
 
