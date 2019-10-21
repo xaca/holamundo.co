@@ -180,11 +180,16 @@ Until:
 
 Until I win money!
 
-Start
-Execute
-Condition?
-Yes, No
-End
+               Start
+      - - - - -> |
+      |          v
+      |  [Execute cool code]
+      |          |
+      |       Condition? - No - > -
+      |- < Yes - |                 |
+                 |< - - - - - - - -|              
+                 v     
+                End
 
       do
       {
