@@ -1,0 +1,275 @@
+Slide 1:
+Caderno de programação
+
+Slide 2:
+Índice
+3  Variáveis
+8  Operadores
+12 Estruturas de Controle
+17 Bestiário de Variáveis
+20 Vetores
+23 Matrizes
+25 Strings
+28 Tipos de Funções
+
+Slide 3:
+Variável
+Uma variável é um recipiente vazio, como um copo.
+
+Slide 4:
+Na programação, antes de poder usar uma variável, é necessário executar duas operações:
+- declarar a variável (criar o vidro) para reservar o espaço onde os dados serão armazenados.
+- inicialize a variável (coloque o conteúdo no vidro) para usar o valor.
+
+Slide 5:
+Para criar uma variável, você deve usar um tipo.
+O tipo determina quanto espaço é necessário para representar os dados.
+Por exemplo, estamos falando de números - os tipos de dados são como bonecas matryoshka. Um recipiente maior pode conter um menor.
+
+Slide 6:
+Muito importante:
+Se o conteúdo a ser salvo na variável exceder sua capacidade, haverá um estouro.
+Se quisermos salvar o conteúdo de um contêiner maior em um contêiner menor, isso não será possível porque haverá um estouro ou perda de dados.
+
+Slide 7:
+É senso comum não comer torrada, com um copo vazio, quando estamos com sede porque ...
+não sacia a sede.
+Usar uma variável sem inicializá-la é um erro grave.
+
+cartoon:
+Estou com sede!
+Ainda estou com sede
+
+Slide 8:
+Operadores
+Aritmética - adicionar, subtrair, multiplicar, dividir
+Use eles, eles estão livres. Eles vão te salvar.
+Parênteses (herói)
+Eles são avaliados da esquerda para a direita.
+ordem de avaliação
+1 () parênteses
+2 * e /
+3 + e -
+
+Slide 9:
+Relacionamento: mwa!
+Maior que, igual a, menor que, maior que ou igual a, diferente de, menor que ou igual a
+Compara a relação entre dois números e nos diz se é verdadeiro ou falso
+Sim, 5 é maior que 2
+
+Slide 10:
+
+Cuidado!
+Não confunda o operador de atribuição com o operador de comparação de igualdade.
+b = 5 atribui a b o valor 5.
+Você == você
+Você é igual a você mesmo? Sim, verdade).
+
+### Slide 11: ###
+
+Lógica
+Atrás de uma dessas portas está a mulher da sua vida
+
+e ou não
+
+e: retorna verdadeiro se ambos os valores forem verdadeiros. Caso contrário, false.
+ou: retorna falso se ambos os valores forem falsos. Caso contrário, é verdade.
+não: retorna o oposto. true se o valor for falso. false se o valor for verdadeiro.
+
+### Slide 12: ###
+
+Estruturas de controle
+
+E se:
+
+Começar
+    |
+Condição - Não - - -
+    | Sim |
+[Faça algo] |
+    | - - - - - |
+   Fim
+
+Se eu tiver a chave, eu entro
+
+if (condição)
+{
+    // Código legal aqui!
+}
+
+
+### Slide 13: ###
+
+se - senão:
+
+Se eu tenho dinheiro, eu como pizza
+Senão, eu bebo água
+
+(Começar)
+    |
+Condição - não  -  -  - |
+    | Sim           Execute o código 2
+Execute o código 1              |
+    |  - - - - - - - - -|
+   fim
+
+if (condição)
+{
+    // Código legal 1
+}
+else
+{
+    // Código legal 2
+}
+
+
+### Slide 14: ###
+
+rotações
+
+enquanto:
+
+Se eu não estou cansado, eu vou
+
+(começar)
+    |
+[condição] - não -> fim
+    | sim
+  executar
+
+enquanto (condição)
+{
+    // código legal aqui!
+}
+
+### Slide 15: ###
+
+até:
+
+Até eu ganhar dinheiro!
+
+Começar
+Executar
+Condição?
+Sim não
+Fim
+
+Faz
+{
+    // código legal aqui!
+
+} enquanto (condição);
+
+### Slide 16: ###
+
+para:
+
+Um tiro para cada alvo
+
+Começar
+Sim não
+Fim
+Condição
+Executar
+
+Aumentar ou diminuir
+Código legal.
+
+### Slide 17: ###
+Bestiário de Variáveis
+
+Flag: uma chave que controla como o fluxo do programa é executado
+
+saia daqui!
+
+
+### Slide 18: ###
+
+Guarda: Relógios e espera ter um certo valor
+
+Insira um valor em added_value
+
+Guard = added_value;
+
+Verifica se o valor de entrada é igual a -1. Se isso acontecer, o ciclo termina.
+
+### Slide 19: ###
+
+Contador
+Conta um valor, geralmente um por um.
+
+Acumulador
+Semelhante a um contador, mas acumula múltiplos, divisões, somas e muito mais.
+
+
+### Slide 20: ###
+
+Vetores
+
+Uma estrutura de programação que agrupa um número fixo de variáveis ​​do mesmo tipo.
+
+                componentes
+dados ----- 35 ................
+índices 1 ...............
+                comprimento 4
+
+### Slide 21: ###
+
+Dados
+(diálogos): o trem é criado,
+             Sem vagões, o trem é inútil.
+             Economiza espaço para 4 vagões
+
+### Slide 22: ###
+
+O conteúdo está sendo adicionado
+Cuidado! Se você colocar o conteúdo em uma posição que não existe, você perderá o conteúdo.
+
+Erro
+
+### Slide 23: ###
+
+Matrizes
+são estruturas que nos permitem armazenar dados do mesmo tipo como uma tabela, com N linhas e M colunas
+
+8 colunas
+6 linhas
+célula
+
+### Slide 24: ###
+
+dato = Data
+É possível declarar e inicializar um vetor ou matriz assim:
+(diálogo): atribui um valor à célula
+
+### Slide 25: ###
+
+Strings
+
+Uma string é um valor alfanumérico ou um conjunto de caracteres. Funciona como um vetor.
+"Olá Mundo"
+Índices
+10 caracteres no total
+
+### Slide 26: ###
+
+s[0] retorna um caractere. É como nós representamos um personagem em um determinado índice. Neste caso, 0
+s[0] -> h
+
+As strings são imutáveis, mas ainda têm alguns poderes que chamaremos de comandos.
+'Olá Olá'
+
+Fabuloso, Impressionante, Uau
+
+### Slide 27: ###
+
+Alguns comandos:
+Olá
+mundo
+Tchau
+
+para ver todos os comandos, consulte a API do idioma na Internet
+
+(caixa): Cuidado!
+        == não deve ser usado para comparar
+   
